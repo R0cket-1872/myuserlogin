@@ -7,6 +7,15 @@
 
 one:
   email: test1@test.com
+  username: mark_nutt
+  profile: Archer number one
+  id: 1
+  
 
 two:
   email: test2@test.com
+  username: gavin_free
+  profile: Sadly not Dan the man
+  id: 2 
+  
+  

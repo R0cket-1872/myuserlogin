@@ -4,6 +4,8 @@ Profile::Application.routes.draw do
   get "home/index"
 
   get "home/secret"
+  
+  resources :users, :only => [:index, :show, :destroy]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
